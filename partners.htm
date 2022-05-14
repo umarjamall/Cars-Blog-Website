@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+ <script type="text/javascript" src="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+ <script src="js/script.js"></script>
+<style>
+    body {/*
+        background-image:url("bg.jpg");
+        background-size: 100% 100%; 
+        background-repeat: no-repeat;
+        background-attachment: fixed;*/
+        background-color:white;
+    }
+    
+    .clearfix::after {
+     content:'';
+     display:block;
+     clear:both;
+    }
+    
+    
+    header {
+     position:relative;
+     
+    }
+    
+    .menutoggle {
+     display:none;
+    }
+    
+    
+    .clearfix {
+      overflow: auto;
+    }
+    
+    
+    header.logo{
+        float:left;
+    }
+    
+    header  ul{
+        float:right;
+        position:sticky;
+        top:0px;
+        right:0px;
+        margin-top:-110px;
+        margin-right:0px;
+        padding:0px;
+        list-style:none;
+        
+    }
+    
+    header ul li{
+        background-color:grey;
+        float:left;
+        padding: 7px 8px;
+        border-radius: 15px;
+        margin-left:10px;
+    }
+    
+    .menu-toggle{
+     display:none;
+    }
+    a:link {
+        text-decoration: none;
+        color:black;
+    }
+
+     a:hover {
+        text-decoration: none;
+        color:white;
+     }
+     
+     a:visited {
+      color:black;
+     }
+     
+     a:active {
+      color: yellow;
+     }
+     
+     
+     .main-img {
+      width:75%;
+      height:550px;
+      margin-left:150px;
+      margin-right:100px;
+      
+
+     }
+     .main-img .img {
+      width:100%;
+      height:100%;
+      float:top;
+      box-shadow:1rem 1rem 1rem -1rem black;
+      
+     }
+     
+     
+     .main-p .mid-title {
+      font-family: Impact, Charcoal, serif;
+      text-align:center;
+      border:1px solid red;
+      color:#ff5947;
+      padding:15px;
+      background-color:white;
+      margin-right:500px;
+      margin-left:500px;
+      border-bottom:1px solid white;
+     }
+     
+     .main-p .p {
+      background-color:white;
+      font-family:"Arial Black", Gadget, sans-serif;
+      text-align:center;
+      color:#ff8647;
+      margin:0px 250px;
+     }
+     
+     
+     .smalltitle {
+      width:150px;
+      color:#ff5947;
+     }
+     .logos {
+       display:inline-block;
+      background-color:;
+      height:320px;
+      width:15%;
+      margin:5px 50px;
+      border-radius:10px;
+     }
+     
+     .partners-logo {
+      height:250px;
+      border-radius:10px;
+     }
+     
+     
+</style>
+<body>
+ <header>
+    
+         <div class="logo">
+			      <img src="images/logo.jpg"alt="This is image logo" draggable="false" width="100px" height="100px"/>
+         </div>
+   <div class="menu-toggle">   
+    <i class=" fa fa-bars " aria-hidden="true"></i>
+   </div>
+    <ul>
+     <li><a href="/"> <i class="fas fa-home" aria-hidden="true"></i>
+        Home </a></li>
+     <li><a href="/"> <i class="fas fa-search" aria-hidden="true"></i>
+        Search </a></li>
+     <li><a href="/"> <i class="fas fa-sign-in-alt" aria-hidden="true"></i>
+        Login </a></li>
+     <li><a href="/"> <i class="fas fa-circle" aria-hidden="true"></i>
+        Details </a></li>
+     <li><a href="/"> <i class="far fa-registered" aria-hidden="true"></i>
+        Registration </a></li>
+         
+     <li><a href="/"> <i class="fas fa-phone" aria-hidden="true"></i>
+        Contact Us </a></li>
+     <br><br>
+     <li><a href="/"> <i class="fas fa-" aria-hidden="true"></i>
+        Compare </a></li>
+     <li><a href="/"> <i class="fas fa-" aria-hidden="true"></i>
+        Complaints </a></li>
+     <li><a href="/"> <i class="fas fa-address-book" aria-hidden="true"></i>
+        about </a></li>
+     <li><a href="/"> <i class="fas fa-question-circle" aria-hidden="true"></i>
+        Support </a></li>
+     <li><a href="partners.htm"> <i class="fas fa-newspaper" aria-hidden="true"></i>
+        Partners </a></li>
+     <li><a href="blog.htm"> <i class="fas fa-blog" aria-hidden="true"></i>
+        Blog </a></li>
+    </ul>
+    
+        
+ </header>
+ 
+ 
+<body>
+ 
+    <div class="main-img">
+     
+     <img src="images/pcar.jpg" class="img">
+    </div>
+ 
+    <div class="main-p">
+     <h1 class="mid-title"> Our Partners</h1>
+     <p class="p">
+      We are a car show website that provides information and specs about cars, We don't own any of the shown car. Our partners (Cars showroom)
+      support us with all the love and share with us details specs in the car that may not be published by the car companies. If u want to get
+      partnership with us, please contact us.
+     </p>
+     
+     
+     <div class="smalltitle">
+      <h3>Sponsor Spotlight</h3>
+     </div>
+    </div>
+    
+    <div class="partners">
+     
+     <div class="logos">
+      <img src="images/logos1.jpg" class="partners-logo">
+      
+     </div>
+     
+     <div class="logos">
+      <img src="images/logos3.jpg" class="partners-logo">
+      
+     </div>
+     
+     <div class="logos">
+      <img src="images/logos4.jpg" class="partners-logo">
+      
+     </div>
+     
+     <div class="logos">
+      <img src="images/logos5.jpg" class="partners-logo">
+      
+     </div>
+    </div>
+    
+ 
+ 
+ 
+ 
+ 
+    
+</body>
+</head>
+</html>
